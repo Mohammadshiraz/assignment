@@ -1,0 +1,28 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Vue.js build files
+dist/
+*.log
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Editor & OS files
+.vscode/
+.DS_Store
+Thumbs.db
+.idea/
+*.swp
+*.swo
+
+# Logs & temp files
+logs/
+*.log
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
