@@ -42,7 +42,7 @@ const login = async () => {
 
   try {
     loading.value = true;
-    const response = await axios.post("http://localhost:4000/api/v1/users/login", {
+    const response = await axios.post("https://assignment-backend-agjv.onrender.com/api/v1/users/login", {
       email: email.value,
       password: password.value,
     });

@@ -51,7 +51,7 @@
   
     try {
       loading.value = true;
-      const response = await axios.post("http://localhost:4000/api/v1/users/register", {
+      const response = await axios.post("https://assignment-backend-agjv.onrender.com/api/v1/users/register", {
         email: email.value,
         password: password.value,
       });
