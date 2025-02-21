@@ -146,10 +146,3 @@ const validatePassword = () => {
    git push origin feature-name
    ```
 5. Open a pull request.
-
-## License
-
-This project is licensed under the **MIT License**.
-```
-
-You can save this as a `README.md` file in your project directory. Let me know if you need any modifications! 🚀
